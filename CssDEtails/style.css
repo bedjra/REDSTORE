@@ -4,7 +4,7 @@
     justify-content: space-between;
     /* espace entre l'image et le texte */
     padding: 70px;
-    background-color: #ecc3c3;
+    background-color: white;
     
 
 }
@@ -13,7 +13,10 @@
 
 .contenthome {
     max-width: 50%;
-    /* Limite la largeur pour que le texte ne prenne pas trop de place */
+}
+.contenthome h3{
+    margin-bottom: 20px;
+
 }
 
 .contenthome h4 {
@@ -21,7 +24,7 @@
 }
 
 .contenthome p {
-    font-size: 15px
+    font-size: 17px
 }
 
 .contenthome p {
@@ -30,8 +33,9 @@
 }
 
 .media img {
-    margin-right: 10px;
-    height: 700px;
+    margin-left: 270px;
+    padding-top: 50px;
+    height: 400px;
 }
 
 .contenthome .exp {
